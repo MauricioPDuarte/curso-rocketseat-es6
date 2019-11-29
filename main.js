@@ -1,9 +1,6 @@
-const arr = [1, 3, 4, 5, 6];
+const soma = (a = 3, b = 6) => {
+    return a + b;
+}
 
-const newArray = arr.map(item => item * 2)
-
-console.log(newArray);
-
-const teste = () => ({ nome: 'Diego' })
-
-console.log(teste())
+console.log(soma(1));
+console.log(soma());
