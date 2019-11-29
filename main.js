@@ -1,9 +1,12 @@
-class Teste {
-    metodo(){
-
+class Matematica {
+    constructor() {
+        this.todos = [];
     }
 
-    outro(){
-
+    static soma(a, b) {
+        return a + b;
     }
+
 }
+
+console.log(Matematica.soma(1, 2));
